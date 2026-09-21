@@ -1,8 +1,17 @@
 # Project State — Agora
 
 ## Project Name: Agora
-## Current Status: Scaffolding Complete (Milestone 1 Unit 1 Done)
+## Current Status: Milestone 2 Unit 0 Done (test harness ready)
 ## Technologies: React, Tailwind CSS, TypeScript, Vite, pnpm
+
+## Conventions
+- **Test strategy:** Vitest 5 + React Testing Library (integration-heavy, no shallow render)
+- **User events:** @testing-library/user-event (not fireEvent)
+- **Assertions:** @testing-library/jest-dom (via /vitest entry)
+- **Environment:** jsdom; vitest config in `vitest.config.ts`; global cleanup in `src/test/setup.ts`
+- **Test command:** `pnpm test` (CI-style run); `pnpm test:watch` (development)
+- **Package manager:** pnpm (never npm/yarn)
+- **Lint:** oxlint (`.oxlintrc.json`); type-check runs inside `pnpm build` via `tsc -b`
 
 ## Core Pillars
 - Stays & Places
@@ -11,9 +20,8 @@
 - Essential Services
 
 ## Current Sprint Focus
-- Setup directory structure, project state tracking, README, and configuration files.
-- Scaffold React + TypeScript + Tailwind CSS application workspace with pnpm.
-- Documentation set complete: README.md, docs/GETTING_STARTED.md, docs/ARCHITECTURE.md.
+- Milestone 2 — Interactive Discovery Prototype (in progress)
+- Unit 1 (next): design tokens & app shell cleanup — replace Vite demo, establish Tailwind theme, semantic shell
 
 ## Documentation
 - README.md — product definition, pillars, quick start, structure, roadmap.
