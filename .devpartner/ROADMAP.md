@@ -2,8 +2,9 @@
 
 ## Milestone 1: Core Foundation & Scaffolding (In Progress)
 - [x] Establish repository and `.devpartner/` system tracking
+- [x] Scaffold Vite + React + TypeScript + Tailwind CSS application workspace
 - [x] Formulate high-level Product Definition (README.md)
-- [ ] Scaffold Vite + React + TypeScript + Tailwind CSS application workspace
+- [x] Write project documentation set (README, GETTING_STARTED.md, ARCHITECTURE.md)
 
 ## Milestone 2: Interactive Discovery Prototype
 - [ ] Implement Unified Category Navigation Dashboard

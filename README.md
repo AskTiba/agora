@@ -1,32 +1,122 @@
-# React + TypeScript + Vite
+# Agora — Hyper-Local Discovery & Community Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> *Agora* (Ancient Greek: ἀγορά) — the central public space and heart of community life.
 
-Currently, two official plugins are available:
+Agora is a hyper-local discovery and community platform that unifies lodging, dining,
+nightlife, sports, local activities, and essential services into a single, fast, and
+beautiful web experience. It is designed to be the modern "town square" — the first stop
+for anyone wanting to know what their area has to offer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Core Pillars
 
-## React Compiler
+| Pillar | What it covers |
+| --- | --- |
+| **Stays & Places** | Lodging, venues, and notable local places |
+| **Food & Nightlife** | Restaurants, cafés, bars, and nightlife |
+| **Activities & Community** | Sports, events, things to do, community happenings |
+| **Essential Services** | Everyday services people need locally |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Current Status
 
-## Expanding the Oxlint configuration
+**Scaffolding complete — active development ongoing.**
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- [x] Repository and project-state tracking established
+- [x] Vite + React + TypeScript + Tailwind CSS workspace scaffolded
+- [x] Tailwind CSS v4 theming configured (`--color-brand-primary`, `--color-brand-secondary`)
+- [ ] Interactive Discovery Prototype (Milestone 2)
+- [ ] Live Events & Community Hub (Milestone 3)
+- [ ] Polish, Theme & Delivery (Milestone 4)
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the technical overview and
+[`ROADMAP` notes](#roadmap) below.
+
+## Tech Stack
+
+| Layer | Choice |
+| --- | --- |
+| Language | TypeScript |
+| UI library | React 19 |
+| Build tool | Vite |
+| Styling | Tailwind CSS v4 (via `@tailwindcss/vite`) |
+| Linting | Oxlint |
+| Package manager | pnpm |
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** 20.19+ or 22.12+ (required by Vite 8)
+- **pnpm** (see [GETTING_STARTED.md](docs/GETTING_STARTED.md) for install options)
+
+### Quick Start
+
+```bash
+# Install dependencies
+pnpm install
+
+# Start the dev server (HMR enabled)
+pnpm dev
+
+# Production build
+pnpm build
+
+# Lint
+pnpm lint
+
+# Preview the production build
+pnpm preview
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Open http://localhost:5173 in your browser to see the app.
+
+> See [`docs/GETTING_STARTED.md`](docs/GETTING_STARTED.md) for a full onboarding guide.
+
+## Scripts
+
+| Command | Description |
+| --- | --- |
+| `pnpm dev` | Start the Vite dev server with hot module replacement |
+| `pnpm build` | Type-check (`tsc -b`) then produce a production build |
+| `pnpm preview` | Serve the production build locally |
+| `pnpm lint` | Run Oxlint over the project |
+
+## Project Structure
+
+```
+.
+├── docs/               # Project documentation
+│   ├── GETTING_STARTED.md
+│   └── ARCHITECTURE.md
+├── public/             # Static assets served as-is
+│   ├── favicon.svg
+│   └── icons.svg
+├── src/
+│   ├── assets/         # Bundled images and icons
+│   ├── App.tsx         # Root application component
+│   ├── App.css         # App-level styles
+│   ├── index.css       # Global styles + Tailwind theme tokens
+│   └── main.tsx        # Application entry point
+├── index.html          # Entry HTML
+├── vite.config.ts      # Vite + plugins configuration
+├── tsconfig.json       # TypeScript project configuration
+└── package.json
+```
+
+## Documentation
+
+- [Getting Started Guide](docs/GETTING_STARTED.md) — prerequisites, install, scripting, troubleshooting
+- [Architecture & Conventions](docs/ARCHITECTURE.md) — stack rationale, project layout, data model, conventions
+
+## Roadmap
+
+- **Milestone 1 — Core Foundation & Scaffolding** *(in progress)*
+- **Milestone 2 — Interactive Discovery Prototype**: unified category navigation dashboard,
+  interactive map exploration UI, detailed cards/modals for all service types
+- **Milestone 3 — Live Events & Community Hub**: "What's Happening Today" feed, quick-filter
+  tags, saved favorites / dynamic planner dashboard
+- **Milestone 4 — Polish, Theme & Delivery**: system-adaptive light/dark mode, micro-interactions,
+  final production build
+
+## License
+
+Private — no license granted. All rights reserved.
