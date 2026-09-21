@@ -1,7 +1,7 @@
 # Project State — Agora
 
 ## Project Name: Agora
-## Current Status: Milestone 2 Unit 0 Done (test harness ready)
+## Current Status: Milestone 2 Unit 1 Done (design tokens + app shell)
 ## Technologies: React, Tailwind CSS, TypeScript, Vite, pnpm
 
 ## Conventions
@@ -21,7 +21,7 @@
 
 ## Current Sprint Focus
 - Milestone 2 — Interactive Discovery Prototype (in progress)
-- Unit 1 (next): design tokens & app shell cleanup — replace Vite demo, establish Tailwind theme, semantic shell
+- Unit 2 (next): domain model & fixtures — 4-pillar categories + mock data + in-memory search/index
 
 ## Documentation
 - README.md — product definition, pillars, quick start, structure, roadmap.
