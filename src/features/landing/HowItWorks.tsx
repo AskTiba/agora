@@ -82,7 +82,7 @@ export function HowItWorks() {
     <section aria-labelledby="how-heading" className="relative overflow-hidden bg-gradient-to-b from-surface via-surface to-surface-elevated py-24 sm:py-32">
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal text-center">
-          <span className="inline-block rounded-full bg-accent-subtle px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-accent">
+          <span className="inline-block rounded-full bg-accent-subtle px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-accent dark:text-brand-300">
             How it works
           </span>
           <h2 id="how-heading" className="mt-5 font-display text-3xl font-extrabold tracking-tight text-ink sm:text-4xl lg:text-5xl">

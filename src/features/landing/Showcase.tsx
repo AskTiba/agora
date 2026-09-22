@@ -67,7 +67,7 @@ function PlaceCard({
 
         {/* ── Content ── */}
         <div className="p-5">
-          <span className="text-[11px] font-semibold uppercase tracking-widest text-accent">
+          <span className="text-[11px] font-semibold uppercase tracking-widest text-accent dark:text-brand-300">
             {place.category}
           </span>
           <h3 className="mt-1.5 font-display text-lg font-bold text-ink transition-colors group-hover:text-accent">
@@ -160,7 +160,7 @@ export function Showcase() {
 
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal text-center">
-          <span className="inline-block rounded-full bg-accent-subtle px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-accent">
+          <span className="inline-block rounded-full bg-accent-subtle px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-accent dark:text-brand-300">
             Explore
           </span>
           <h2 id="showcase-heading" className="mt-5 font-display text-3xl font-extrabold tracking-tight text-ink sm:text-4xl lg:text-5xl">

@@ -96,7 +96,7 @@ export function PlacePage() {
             <div className="reveal mt-12">
               <div className="flex items-center justify-between">
                 <h2 className="font-display text-xl font-bold text-ink">Reviews</h2>
-                <span className="rounded-full bg-accent-subtle px-3 py-1 text-xs font-semibold text-accent">
+                <span className="rounded-full bg-accent-subtle px-3 py-1 text-xs font-semibold text-accent dark:text-brand-300">
                   {place.rating} / 5
                 </span>
               </div>

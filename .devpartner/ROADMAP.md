@@ -17,7 +17,7 @@
 - [x] "What's Happening Today" feed/carousel
 - [ ] Multi-category quick-filter tags (subcategory chips, e.g. "chess", "marathon")
 - [x] Saved Favorites with localStorage persistence
-- [ ] Favorites planner dashboard across saved spots
+- [x] Favorites planner dashboard across saved spots
 
 ## Milestone 4: Polish, Theme & Delivery
 - [x] System-adaptive Light/Dark mode theme toggle
