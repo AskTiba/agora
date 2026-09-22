@@ -14,7 +14,7 @@
 - [x] Paginated browsing (initial batch of 8 + Load more) to keep the landing page light
 
 ## Milestone 3: Live Events & Community Hub
-- [ ] "What's Happening Today" feed/carousel
+- [x] "What's Happening Today" feed/carousel
 - [ ] Multi-category quick-filter tags (subcategory chips, e.g. "chess", "marathon")
 - [x] Saved Favorites with localStorage persistence
 - [ ] Favorites planner dashboard across saved spots

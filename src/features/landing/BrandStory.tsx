@@ -42,7 +42,7 @@ const PILLARS = [
 
 export function BrandStory() {
   return (
-    <section aria-labelledby="story-heading" className="relative py-24 sm:py-32">
+    <section aria-labelledby="story-heading" id="community" className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="reveal text-center">
           <span className="inline-block rounded-full bg-accent-subtle px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-accent">

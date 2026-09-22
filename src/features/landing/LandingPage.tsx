@@ -6,6 +6,7 @@ import { HowItWorks } from './HowItWorks'
 import { Showcase } from './Showcase'
 import { Stats } from './Stats'
 import { Testimonials } from './Testimonials'
+import { EventsFeed } from '../live/EventsFeed'
 
 export function LandingPage() {
   return (
@@ -13,6 +14,7 @@ export function LandingPage() {
       <Hero />
       <Stats />
       <Showcase />
+      <EventsFeed />
       <Features />
       <BrandStory />
       <HowItWorks />
