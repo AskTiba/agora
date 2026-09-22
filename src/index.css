@@ -64,6 +64,15 @@ a, button, [role="button"], summary, input[type="submit"], input[type="button"] 
   cursor: pointer;
 }
 
+/* ── Hide scrollbars on horizontal tab strips ── */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 /* ── Glass morphism ── */
 .glass {
   background: rgba(255, 255, 255, 0.07);
