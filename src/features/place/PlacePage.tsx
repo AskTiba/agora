@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom'
-import { getPlaceBySlug, getRelated } from '../../data/places'
+import { getPlaceBySlug, getRelated } from '../../data/catalogue'
 
 export function PlacePage() {
   const { slug } = useParams<{ slug: string }>()

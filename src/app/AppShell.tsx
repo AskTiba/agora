@@ -2,9 +2,14 @@ import { useEffect } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
+import { loadCatalogue } from '../data/catalogue'
 
 export function AppShell() {
   const location = useLocation()
+
+  useEffect(() => {
+    void loadCatalogue()
+  }, [])
 
   useEffect(() => {
     if (!location.hash) return

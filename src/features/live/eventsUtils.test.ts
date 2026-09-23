@@ -14,7 +14,7 @@ function eventWith(weekday: number, startTime: string, endTime: string): EventIt
   return {
     slug: 'test-event',
     title: 'Test Event',
-    placeSlug: 'the-green-leaf-cafe',
+    placeSlug: 'bombo-road-rolex',
     weekday,
     startTime,
     endTime,
@@ -39,21 +39,21 @@ describe('event date utilities', () => {
 
   it('buckets events by the today window', () => {
     const results = eventsForWindow(EVENTS, 'today', TUESDAY)
-    expect(results.some((event) => event.slug === 'wicker-book-club')).toBe(true)
-    expect(results.some((event) => event.slug === 'roast-and-review-tuesday')).toBe(true)
+    expect(results.some((event) => event.slug === 'book-club-tuesday')).toBe(true)
+    expect(results.some((event) => event.slug === 'cupping-hour-tuesday')).toBe(true)
     expect(results.some((event) => event.slug === 'silent-disco-friday')).toBe(false)
   })
 
   it('buckets events by the tomorrow window', () => {
     const results = eventsForWindow(EVENTS, 'tomorrow', TUESDAY)
-    expect(results.some((event) => event.slug === 'astro-league-night')).toBe(true)
-    expect(results.some((event) => event.slug === 'wicker-book-club')).toBe(false)
+    expect(results.some((event) => event.slug === 'five-a-side-league')).toBe(true)
+    expect(results.some((event) => event.slug === 'book-club-tuesday')).toBe(false)
   })
 
   it('buckets upcoming weekend events and excludes today', () => {
     const results = eventsForWindow(EVENTS, 'weekend', TUESDAY)
-    expect(results.some((event) => event.slug === 'farmers-market-weekly')).toBe(true)
-    expect(results.some((event) => event.slug === 'wicker-book-club')).toBe(false)
+    expect(results.some((event) => event.slug === 'ggaba-lakeside-weekend-market')).toBe(true)
+    expect(results.some((event) => event.slug === 'book-club-tuesday')).toBe(false)
   })
 
   it('detects an event happening right now', () => {

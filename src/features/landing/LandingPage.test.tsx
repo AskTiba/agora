@@ -59,10 +59,10 @@ describe('Landing page', () => {
   })
 
   it('renders the place detail page at a nested route', () => {
-    renderAt('/place/riverside-park')
+    renderAt('/place/bombo-road-rolex')
 
     expect(
-      screen.getByRole('heading', { level: 1, name: /riverside park/i }),
+      screen.getByRole('heading', { level: 1, name: /rolex & chapati corner/i }),
     ).toBeInTheDocument()
     expect(screen.getByRole('contentinfo')).toBeInTheDocument()
     expect(

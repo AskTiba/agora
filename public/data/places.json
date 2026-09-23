@@ -1,0 +1,1922 @@
+[
+  {
+    "slug": "bombo-road-rolex",
+    "name": "Rolex & Chapati Corner",
+    "category": "Food & Drink",
+    "tags": [
+      "Rolex",
+      "Street food",
+      "Breakfast"
+    ],
+    "rating": 4.7,
+    "reviews": 210,
+    "description": "Hot-off-the-pan chapati rolled around eggs, tomato, and avocado — the Kampala breakfast that never misses. Open from first light to late night on Kisementi.",
+    "image": "https://picsum.photos/seed/agora-rolex/900/600",
+    "tag": "Local Favorite",
+    "address": "Plot 8, Kisementi, Kololo",
+    "hours": "Mon–Sat: 6am–10pm · Sun: 7am–6pm",
+    "phone": "+256 772 314 889",
+    "price": "$",
+    "website": "#menu",
+    "map": {
+      "x": 42,
+      "y": 38
+    }
+  },
+  {
+    "slug": "mama-o-luwombo-house",
+    "name": "Mama O's Luwombo House",
+    "category": "Food & Drink",
+    "tags": [
+      "Luwombo",
+      "Local cuisine",
+      "Sunday lunch"
+    ],
+    "rating": 4.9,
+    "reviews": 168,
+    "description": "Amazingly tender beef and chicken steamed in banana leaves the way your grandmother made it. Sundays sell out — call ahead and come hungry.",
+    "image": "https://picsum.photos/seed/agora-luwombo/900/600",
+    "tag": "Popular",
+    "address": "Plot 16, Buziga Hills Road, Muyenga",
+    "hours": "Wed–Sun: 12pm–10pm",
+    "phone": "+256 700 251 433",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 68,
+      "y": 61
+    }
+  },
+  {
+    "slug": "nile-perch-grill",
+    "name": "Nile Perch Grill",
+    "category": "Food & Drink",
+    "tags": [
+      "Fish",
+      "Lake view",
+      "Grilled"
+    ],
+    "rating": 4.6,
+    "reviews": 143,
+    "description": "Whole lake perch charred over open coals, served with matoke, chips, and pepper sauce on a deck that hangs over the water.",
+    "image": "https://picsum.photos/seed/agora-nile-perch/900/600",
+    "tag": "Date Night",
+    "address": "No. 3, Ggaba Road, Buziga",
+    "hours": "Tue–Sun: 12pm–11pm",
+    "phone": "+256 755 803 112",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 24,
+      "y": 74
+    }
+  },
+  {
+    "slug": "acacia-brunch-bistro",
+    "name": "Acacia Brunch Bistro",
+    "category": "Food & Drink",
+    "tags": [
+      "Brunch",
+      "Coffee",
+      "Vegan-friendly"
+    ],
+    "rating": 4.5,
+    "reviews": 97,
+    "description": "Avocado toast, french toast, and slow-poured single-origin coffee on a leafy terrace in the heart of Kololo. The weekend brunch line is real — come before ten.",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop&q=80",
+    "tag": "Trending",
+    "address": "Plot 22, Acacia Avenue, Kololo",
+    "hours": "Mon–Fri: 7am–9pm · Sat–Sun: 8am–7pm",
+    "phone": "+256 774 020 561",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 51,
+      "y": 35
+    }
+  },
+  {
+    "slug": "kawa-coffee-roasters",
+    "name": "Kawa Coffee Roasters",
+    "category": "Food & Drink",
+    "tags": [
+      "Specialty coffee",
+      "Roastery",
+      "Quiet"
+    ],
+    "rating": 4.8,
+    "reviews": 189,
+    "description": "Single-origin Ugandan beans roasted in house and pulled to order. Workshops, tastings, and the best flat white on Bugolobi.",
+    "image": "https://picsum.photos/seed/agora-kawa/900/600",
+    "tag": "Must Try",
+    "address": "Plot 7, Bugolobi Village Lane, Bugolobi",
+    "hours": "Mon–Sat: 7am–7pm",
+    "phone": "+256 700 914 227",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 58,
+      "y": 46
+    }
+  },
+  {
+    "slug": "matoke-and-more-kitchen",
+    "name": "Matoke & More Kitchen",
+    "category": "Food & Drink",
+    "tags": [
+      "Matoke",
+      "Local dishes",
+      "Family"
+    ],
+    "rating": 4.7,
+    "reviews": 121,
+    "description": "Steamed matoke, g-nut sauce, smoked fish, and everyday Ugandan cooking made with heart in Makindye. Bring the whole family.",
+    "image": "https://picsum.photos/seed/agora-matoke/900/600",
+    "tag": "Home Cooking",
+    "address": "Plot 12, Makindye Hill Road",
+    "hours": "Mon–Sat: 11am–9pm",
+    "phone": "+256 772 448 905",
+    "price": "$",
+    "website": "#menu",
+    "map": {
+      "x": 37,
+      "y": 70
+    }
+  },
+  {
+    "slug": "palm-wine-patio",
+    "name": "Palm Wine Patio",
+    "category": "Food & Drink",
+    "tags": [
+      "Palm wine",
+      "Beer garden",
+      "Live music"
+    ],
+    "rating": 4.4,
+    "reviews": 76,
+    "description": "Fingers-crossed fresh palm wine and grilled skewers under the trees in Ntinda, with a band that starts around seven.",
+    "image": "https://picsum.photos/seed/agora-palm/900/600",
+    "tag": "Hidden Gem",
+    "address": "Plot 33, Kira Road, Ntinda",
+    "hours": "Wed–Sun: 4pm–11pm",
+    "phone": "+256 780 215 640",
+    "price": "$",
+    "website": "#menu",
+    "map": {
+      "x": 63,
+      "y": 52
+    }
+  },
+  {
+    "slug": "samosa-sisters",
+    "name": "Samosa Sisters",
+    "category": "Food & Drink",
+    "tags": [
+      "Samosas",
+      "Snacks",
+      "Quick bite"
+    ],
+    "rating": 4.6,
+    "reviews": 154,
+    "description": "Crunchy beef and vegetable samosas packed with spice, fried to order outside the university gate. A Wandegeya institution since 2014.",
+    "image": "https://picsum.photos/seed/agora-samosa/900/600",
+    "tag": "Local Favorite",
+    "address": "Wandegeya Bus Stop, Makerere",
+    "hours": "Mon–Sat: 7am–8pm",
+    "phone": "+256 771 633 218",
+    "price": "$",
+    "website": "#menu",
+    "map": {
+      "x": 46,
+      "y": 24
+    }
+  },
+  {
+    "slug": "entebbe-fish-market-cafe",
+    "name": "Entebbe Fish Market Café",
+    "category": "Food & Drink",
+    "tags": [
+      "Fried fish",
+      "Fresh",
+      "Waterfront"
+    ],
+    "rating": 4.5,
+    "reviews": 110,
+    "description": "Right on Entebbe harbour, the catch comes off the boats in the morning and lands on your plate by noon. Nothing beats it with a cold drink at sunset.",
+    "image": "https://picsum.photos/seed/agora-entebbe-fish/900/600",
+    "tag": "Fresh Daily",
+    "address": "Entebbe Harbour, Church Road",
+    "hours": "Daily: 9am–10pm",
+    "phone": "+256 785 502 339",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 12,
+      "y": 88
+    }
+  },
+  {
+    "slug": "jinja-hilltop-cafe",
+    "name": "Jinja Hilltop Café",
+    "category": "Food & Drink",
+    "tags": [
+      "Brunch",
+      "River view",
+      "Coffee"
+    ],
+    "rating": 4.7,
+    "reviews": 132,
+    "description": "Overlooking the Nile rapids, a garden café serving full breakfasts, cold-pressed juices, and fresh mango pancakes after a morning on the water.",
+    "image": "https://picsum.photos/seed/agora-jinja-hilltop/900/600",
+    "tag": "Scenic",
+    "address": "Hilltop Road, Jinja Central",
+    "hours": "Daily: 7am–6pm",
+    "phone": "+256 700 372 148",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 84,
+      "y": 42
+    }
+  },
+  {
+    "slug": "garden-city-bowls",
+    "name": "Garden City Bowls",
+    "category": "Food & Drink",
+    "tags": [
+      "Smoothie bowls",
+      "Healthy",
+      "Açai"
+    ],
+    "rating": 4.4,
+    "reviews": 89,
+    "description": "Rainbow-bright smoothie bowls, porridge, and juices made for a healthier Kampala. Fuel-up spot between shopping and meetings.",
+    "image": "https://picsum.photos/seed/agora-bowls/900/600",
+    "tag": "Healthy",
+    "address": "Yusuf Lule Road, Kololo",
+    "hours": "Mon–Sun: 8am–8pm",
+    "phone": "+256 773 815 426",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 49,
+      "y": 41
+    }
+  },
+  {
+    "slug": "the-curry-pot",
+    "name": "The Curry Pot",
+    "category": "Food & Drink",
+    "tags": [
+      "Curries",
+      "Indian-Ugandan",
+      "Spicy"
+    ],
+    "rating": 4.6,
+    "reviews": 105,
+    "description": "Layers of flavour from Kiswahili-coastal curries to fiery Ugandan-Indian favourites, served family-style with fresh chapatis.",
+    "image": "https://picsum.photos/seed/agora-curry/900/600",
+    "tag": "Rich Flavours",
+    "address": "Plot 5, Old Kira Road, Kololo",
+    "hours": "Mon–Sun: 12pm–10pm",
+    "phone": "+256 700 926 471",
+    "price": "$$$",
+    "website": "#reserve",
+    "map": {
+      "x": 55,
+      "y": 39
+    }
+  },
+  {
+    "slug": "chapati-hub",
+    "name": "Chapati Hub",
+    "category": "Food & Drink",
+    "tags": [
+      "Chapati",
+      "Wraps",
+      "Budget"
+    ],
+    "rating": 4.3,
+    "reviews": 201,
+    "description": "Twelve kinds of chapati wraps — beans, eggs, g-nut, avocado — folded tight and wrapped for the road. The go-to lunch on Nakasero Hill.",
+    "image": "https://picsum.photos/seed/agora-chapati-hub/900/600",
+    "tag": "Quick & Good",
+    "address": "Plot 2, Nakasero Hill Lane",
+    "hours": "Mon–Sat: 7am–7pm",
+    "phone": "+256 775 234 880",
+    "price": "$",
+    "website": "#menu",
+    "map": {
+      "x": 52,
+      "y": 33
+    }
+  },
+  {
+    "slug": "sukuma-veggie-kitchen",
+    "name": "Sukuma Veggie Kitchen",
+    "category": "Food & Drink",
+    "tags": [
+      "Vegan",
+      "Plant-based",
+      "Affordable"
+    ],
+    "rating": 4.5,
+    "reviews": 84,
+    "description": "Sukuma wiki, bean stews, roasted jackfruit, and plant-powered plates that prove Ugandan food needs no meat. Fully vegan kitchen.",
+    "image": "https://picsum.photos/seed/agora-veggie/900/600",
+    "tag": "Plant First",
+    "address": "Plot 41, Ntinda View Road",
+    "hours": "Mon–Sat: 9am–8pm",
+    "phone": "+256 701 549 772",
+    "price": "$",
+    "website": "#menu",
+    "map": {
+      "x": 62,
+      "y": 56
+    }
+  },
+  {
+    "slug": "roasted-chicken-yard",
+    "name": "Roasted Chicken Yard",
+    "category": "Food & Drink",
+    "tags": [
+      "Muchomo",
+      "Grilled",
+      "Outdoor"
+    ],
+    "rating": 4.6,
+    "reviews": 173,
+    "description": "Whole chickens and skewered muchomo over hardwood coals in a breezy Kansanga yard. Late-night skewers and cold drinks until the coals die.",
+    "image": "https://picsum.photos/seed/agora-muchomo/900/600",
+    "tag": "Weekend Spot",
+    "address": "Ggaba Road, Kansanga",
+    "hours": "Daily: 12pm–midnight",
+    "phone": "+256 772 197 645",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 29,
+      "y": 65
+    }
+  },
+  {
+    "slug": "kisementi-gelato-lab",
+    "name": "Kisementi Gelato Lab",
+    "category": "Food & Drink",
+    "tags": [
+      "Gelato",
+      "Dessert",
+      "Family"
+    ],
+    "rating": 4.6,
+    "reviews": 138,
+    "description": "Small-batch gelato — passion fruit, vanilla bean, mango, and dark chocolate — churned daily in a tiny shop that always smells amazing.",
+    "image": "https://picsum.photos/seed/agora-gelato/900/600",
+    "tag": "Sweet Tooth",
+    "address": "Kisementi Circle, Kololo",
+    "hours": "Daily: 10am–10pm",
+    "phone": "+256 783 611 290",
+    "price": "$",
+    "website": "#menu",
+    "map": {
+      "x": 45,
+      "y": 37
+    }
+  },
+  {
+    "slug": "coffee-at-the-source",
+    "name": "Coffee at the Source",
+    "category": "Food & Drink",
+    "tags": [
+      "Specialty coffee",
+      "Tastings",
+      "Source of the Nile"
+    ],
+    "rating": 4.8,
+    "reviews": 96,
+    "description": "Taste Ugandan coffee where the Nile begins — a roastery with farm tours, cuppings, and a patio braced against the river breeze.",
+    "image": "https://picsum.photos/seed/agora-source/900/600",
+    "tag": "Story Worth Telling",
+    "address": "Source of the Nile, Jinja",
+    "hours": "Daily: 8am–6pm",
+    "phone": "+256 700 864 055",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 88,
+      "y": 47
+    }
+  },
+  {
+    "slug": "kigo-sunset-bbq",
+    "name": "Kigo Sunset BBQ",
+    "category": "Food & Drink",
+    "tags": [
+      "BBQ",
+      "Lake views",
+      "Sunset"
+    ],
+    "rating": 4.5,
+    "reviews": 118,
+    "description": "Ribs, pork, and fish slow-smoked all day, served as the sun drops behind Lake Victoria on the airport road.",
+    "image": "https://picsum.photos/seed/agora-kigo/900/600",
+    "tag": "Golden Hour",
+    "address": "Kigo Landing Site, Entebbe Road",
+    "hours": "Fri–Sun: 3pm–11pm",
+    "phone": "+256 781 442 917",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 9,
+      "y": 81
+    }
+  },
+  {
+    "slug": "black-box-jazz-crew",
+    "name": "Black Box Jazz Club",
+    "category": "Nightlife",
+    "tags": [
+      "Jazz",
+      "Cocktails",
+      "Live music"
+    ],
+    "rating": 4.7,
+    "reviews": 141,
+    "description": "Low lights, a serious sound system, and live jazz most nights of the week. The espresso martini after the ten o’clock set is mandatory.",
+    "image": "https://picsum.photos/seed/agora-jazz/900/600",
+    "tag": "Classy",
+    "address": "Plot 14, Cooper Road, Kololo",
+    "hours": "Tue–Sun: 7pm–2am",
+    "phone": "+256 700 315 268",
+    "price": "$$$",
+    "website": "#tickets",
+    "map": {
+      "x": 48,
+      "y": 31
+    }
+  },
+  {
+    "slug": "baju-corner-bar",
+    "name": "Baju Corner Bar",
+    "category": "Nightlife",
+    "tags": [
+      "Local bar",
+      "Music",
+      "Cheap drinks"
+    ],
+    "rating": 4.3,
+    "reviews": 87,
+    "description": "The neighbourhood corner bar where everyone knows your name — affordable drinks, big speakers, and a dance floor under the stars.",
+    "image": "https://picsum.photos/seed/agora-baju/900/600",
+    "tag": "Neighbourhood",
+    "address": "Corner of Ntinda, Kyambogo Road",
+    "hours": "Daily: 4pm–3am",
+    "phone": "+256 773 908 114",
+    "price": "$",
+    "website": "#menu",
+    "map": {
+      "x": 61,
+      "y": 58
+    }
+  },
+  {
+    "slug": "makindye-rooftop-disco",
+    "name": "Makindye Rooftop Silent Disco",
+    "category": "Nightlife",
+    "tags": [
+      "Silent disco",
+      "Rooftop",
+      "LED"
+    ],
+    "rating": 4.5,
+    "reviews": 72,
+    "description": "Three channels, one rooftop, zero neighbours complaining. Pick your vibe on the headphones and dance over the Kampala skyline.",
+    "image": "https://picsum.photos/seed/agora-silent/900/600",
+    "tag": "Unique",
+    "address": "Makindye Hill Top, off Lubiri Ring Road",
+    "hours": "Fri–Sat: 9pm–3am",
+    "phone": "+256 702 466 530",
+    "price": "$$",
+    "website": "#tickets",
+    "map": {
+      "x": 35,
+      "y": 66
+    }
+  },
+  {
+    "slug": "lakeside-lounge-terrace",
+    "name": "Lakeside Lounge & Terrace",
+    "category": "Nightlife",
+    "tags": [
+      "Cocktails",
+      "Lake view",
+      "Chill"
+    ],
+    "rating": 4.6,
+    "reviews": 129,
+    "description": "Panoramic Lake Victoria views, mezze-heavy nibbles, and drinks that arrive fast. The terrace fills up for golden hour in Munyonyo.",
+    "image": "https://picsum.photos/seed/agora-lakeside/900/600",
+    "tag": "Scenic",
+    "address": "Munyanoyo Road, Munyonyo",
+    "hours": "Daily: 3pm–1am",
+    "phone": "+256 700 273 861",
+    "price": "$$$",
+    "website": "#reserve",
+    "map": {
+      "x": 18,
+      "y": 79
+    }
+  },
+  {
+    "slug": "boda-boda-beats",
+    "name": "Boda Boda Beats",
+    "category": "Nightlife",
+    "tags": [
+      "Afro",
+      "Dance",
+      "Local DJs"
+    ],
+    "rating": 4.4,
+    "reviews": 156,
+    "description": "The basement dance club that launched a hundred playlists — Afrobeat, dancehall, and kidandali all night, with resident and guest DJs.",
+    "image": "https://picsum.photos/seed/agora-beats/900/600",
+    "tag": "Happening",
+    "address": "Plot 3, Ggaba Road, Kansanga",
+    "hours": "Thu–Sun: 9pm–4am",
+    "phone": "+256 771 540 392",
+    "price": "$",
+    "website": "#tickets",
+    "map": {
+      "x": 27,
+      "y": 60
+    }
+  },
+  {
+    "slug": "skyline-bar-nakasero",
+    "name": "Skyline Bar Nakasero",
+    "category": "Nightlife",
+    "tags": [
+      "Rooftop",
+      "City views",
+      "Craft cocktails"
+    ],
+    "rating": 4.7,
+    "reviews": 164,
+    "description": "Kampala’s lights sprawl below you from the twentieth floor. The cocktail menu is a tour of Ugandan spirits — waragi old fashioneds included.",
+    "image": "https://picsum.photos/seed/agora-skyline/900/600",
+    "tag": "Panorama",
+    "address": "Twentieth Floor, Nakasero Top",
+    "hours": "Mon–Sun: 4pm–2am",
+    "phone": "+256 700 684 213",
+    "price": "$$$",
+    "website": "#reserve",
+    "map": {
+      "x": 50,
+      "y": 28
+    }
+  },
+  {
+    "slug": "vinyl-and-vibes",
+    "name": "Vinyl & Vibes Lounge",
+    "category": "Nightlife",
+    "tags": [
+      "Vinyl",
+      "Old school",
+      "Chill"
+    ],
+    "rating": 4.5,
+    "reviews": 93,
+    "description": "A candle-lit lounge spinning actual vinyl — soul, funk, and mid-tempo favourites. Conversations, not noise. Sleeves for sale at the bar.",
+    "image": "https://picsum.photos/seed/agora-vinyl/900/600",
+    "tag": "Intimate",
+    "address": "Plot 19, Bugolobi Valley Road",
+    "hours": "Wed–Sat: 7pm–2am",
+    "phone": "+256 772 708 345",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 56,
+      "y": 50
+    }
+  },
+  {
+    "slug": "the-roaring-lion-pub",
+    "name": "The Roaring Lion Pub",
+    "category": "Nightlife",
+    "tags": [
+      "Pub",
+      "Sports screens",
+      "Beer"
+    ],
+    "rating": 4.3,
+    "reviews": 108,
+    "description": "Cold draft, big screens for the big matches, and a Saturday quiz that draws half of Kololo. All your friends are already here.",
+    "image": "https://picsum.photos/seed/agora-lion/900/600",
+    "tag": "Match Day",
+    "address": "Plot 9, Kololo Hill Drive",
+    "hours": "Mon–Sun: 12pm–1am",
+    "phone": "+256 780 159 628",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 47,
+      "y": 34
+    }
+  },
+  {
+    "slug": "breeze-beach-club",
+    "name": "Breeze Beach Club",
+    "category": "Nightlife",
+    "tags": [
+      "Beach club",
+      "Pool parties",
+      "Weekend"
+    ],
+    "rating": 4.4,
+    "reviews": 136,
+    "description": "Sand, swimming, sunsets, and sound — the weekend beach club where Ggaba turns into poolside party central.",
+    "image": "https://picsum.photos/seed/agora-breeze/900/600",
+    "tag": "Weekend Vibe",
+    "address": "Ggaba Beach Road, Ggaba",
+    "hours": "Sat–Sun: 10am–12am",
+    "phone": "+256 701 826 404",
+    "price": "$$",
+    "website": "#tickets",
+    "map": {
+      "x": 21,
+      "y": 78
+    }
+  },
+  {
+    "slug": "taverna-kisementi",
+    "name": "Taverna Kisementi",
+    "category": "Nightlife",
+    "tags": [
+      "Wine",
+      "Craft beer",
+      "Crowd"
+    ],
+    "rating": 4.5,
+    "reviews": 117,
+    "description": "The wine and craft-beer bar in the heart of Kisementi with a crowd that spills onto the pavement by ten. Rare pours and shared plates.",
+    "image": "https://picsum.photos/seed/agora-taverna/900/600",
+    "tag": "After Work",
+    "address": "Kisementi Arcade, Kololo",
+    "hours": "Mon–Sat: 4pm–1am",
+    "phone": "+256 783 372 519",
+    "price": "$$",
+    "website": "#menu",
+    "map": {
+      "x": 44,
+      "y": 40
+    }
+  },
+  {
+    "slug": "the-warehouse-bweyogerere",
+    "name": "The Warehouse (Bweyogerere)",
+    "category": "Nightlife",
+    "tags": [
+      "Techno",
+      "Warehouse",
+      "Late night"
+    ],
+    "rating": 4.6,
+    "reviews": 81,
+    "description": "An converted warehouse on the industrial strip, loud bass, strobes, and line-ups that headline from midnight. Earplugs recommended.",
+    "image": "https://picsum.photos/seed/agora-warehouse/900/600",
+    "tag": "For the Heads",
+    "address": "Old Kampala-Njeru Road, Bweyogerere",
+    "hours": "Fri–Sat: 11pm–5am",
+    "phone": "+256 780 941 207",
+    "price": "$$",
+    "website": "#tickets",
+    "map": {
+      "x": 73,
+      "y": 44
+    }
+  },
+  {
+    "slug": "sax-and-soul",
+    "name": "Sax & Soul",
+    "category": "Nightlife",
+    "tags": [
+      "Live sax",
+      "Blues",
+      "Mood"
+    ],
+    "rating": 4.6,
+    "reviews": 134,
+    "description": "A charcoal-and-cream room where a live saxophone chases the blues until late. Slow drinks, slower vowels, and no phones on the floor.",
+    "image": "https://picsum.photos/seed/agora-sax/900/600",
+    "tag": "Moody",
+    "address": "Plot 2, Ambrosia Avenue, Kololo",
+    "hours": "Fri–Sun: 8pm–2am",
+    "phone": "+256 700 268 455",
+    "price": "$$$",
+    "website": "#tickets",
+    "map": {
+      "x": 52,
+      "y": 36
+    }
+  },
+  {
+    "slug": "kampala-road-runners",
+    "name": "Kampala Road Runners",
+    "category": "Sports & Fitness",
+    "tags": [
+      "Marathon",
+      "Group runs",
+      "Beginners welcome"
+    ],
+    "rating": 4.8,
+    "reviews": 226,
+    "description": "Daily group runs and a full 16-week marathon training block for every pace, with water stops along the Naguru routes. Beginners welcome.",
+    "image": "https://picsum.photos/seed/agora-runners/900/600",
+    "tag": "Community",
+    "address": "Naguru Hill Meeting Point",
+    "hours": "Mon, Wed, Sat: 6am",
+    "phone": "+256 700 512 338",
+    "price": "$",
+    "website": "#schedule",
+    "map": {
+      "x": 57,
+      "y": 48
+    }
+  },
+  {
+    "slug": "bugolobi-leisure-park",
+    "name": "Bugolobi Leisure Park",
+    "category": "Sports & Fitness",
+    "tags": [
+      "Park",
+      "Running trails",
+      "Picnic"
+    ],
+    "rating": 4.6,
+    "reviews": 190,
+    "description": "Green space in the middle of the city — jogging loops, shaded picnics, and a Friday-evening games group that anyone can join.",
+    "image": "https://picsum.photos/seed/agora-park/900/600",
+    "tag": "Fresh Air",
+    "address": "Bugolobi Village Lane",
+    "hours": "Daily: 6am–7pm",
+    "phone": "+256 702 977 163",
+    "price": "$",
+    "website": "#details",
+    "map": {
+      "x": 59,
+      "y": 47
+    }
+  },
+  {
+    "slug": "city-yoga-collective",
+    "name": "City Yoga Collective",
+    "category": "Sports & Fitness",
+    "tags": [
+      "Yoga",
+      "Meditation",
+      "Sunrise"
+    ],
+    "rating": 4.7,
+    "reviews": 143,
+    "description": "Sunrise flows on a terrace above Muyenga with the lake below and birds above. Mats provided, judgement left with the boda driver.",
+    "image": "https://picsum.photos/seed/agora-yoga/900/600",
+    "tag": "Calm",
+    "address": "Muyenga Tank Hill Road",
+    "hours": "Mon–Sat: 6am–9am, 6pm–8pm",
+    "phone": "+256 774 188 420",
+    "price": "$$",
+    "website": "#classes",
+    "map": {
+      "x": 66,
+      "y": 62
+    }
+  },
+  {
+    "slug": "lugogo-five-a-side",
+    "name": "Lugogo Five-a-Side Arena",
+    "category": "Sports & Fitness",
+    "tags": [
+      "Football",
+      "Leagues",
+      "Evening"
+    ],
+    "rating": 4.5,
+    "reviews": 167,
+    "description": "Floodlit five-a-side pitches with corporate leagues, pickup slots, and boots-and-water provided. Book a pitch at six, thank us later.",
+    "image": "https://picsum.photos/seed/agora-fiveaside/900/600",
+    "tag": "League Night",
+    "address": "Lugogo Sports Complex",
+    "hours": "Daily: 5pm–11pm",
+    "phone": "+256 700 334 921",
+    "price": "$",
+    "website": "#book",
+    "map": {
+      "x": 54,
+      "y": 43
+    }
+  },
+  {
+    "slug": "lake-victoria-kayak-club",
+    "name": "Lake Victoria Kayak Club",
+    "category": "Sports & Fitness",
+    "tags": [
+      "Kayaking",
+      "Water sports",
+      "Guided"
+    ],
+    "rating": 4.8,
+    "reviews": 121,
+    "description": "Guided paddles from Entebbe’s sandy coves to the Ssese-bound horizon. Lessons for first-timers, trips for the sure-paddled.",
+    "image": "https://picsum.photos/seed/agora-kayak/900/600",
+    "tag": "Adventure",
+    "address": "Entebbe Botanical Gardens Shore",
+    "hours": "Tue–Sun: 7am–5pm",
+    "phone": "+256 700 653 774",
+    "price": "$$",
+    "website": "#book",
+    "map": {
+      "x": 14,
+      "y": 86
+    }
+  },
+  {
+    "slug": "bugolobi-crossfit-box",
+    "name": "Bugolobi CrossFit Box",
+    "category": "Sports & Fitness",
+    "tags": [
+      "CrossFit",
+      "WODs",
+      "Coaching"
+    ],
+    "rating": 4.6,
+    "reviews": 139,
+    "description": "Barbell, rowers, and relentless encouragement. Whiteboard your WOD, sweat for a wall-ball hour, then coffee across the road.",
+    "image": "https://picsum.photos/seed/agora-crossfit/900/600",
+    "tag": "Train Hard",
+    "address": "Plot 10, Bugolobi Industrial Area",
+    "hours": "Mon–Sat: 6am–9pm",
+    "phone": "+256 772 840 152",
+    "price": "$$",
+    "website": "#classes",
+    "map": {
+      "x": 60,
+      "y": 51
+    }
+  },
+  {
+    "slug": "ntinda-swim-and-spa",
+    "name": "Ntinda Swim & Spa",
+    "category": "Sports & Fitness",
+    "tags": [
+      "Swimming",
+      "Laps",
+      "Recovery"
+    ],
+    "rating": 4.4,
+    "reviews": 98,
+    "description": "A 25-metre lap pool with lane bookings, a sauna for the cooldown, and an honest massage table for the should-have-known-better.",
+    "image": "https://picsum.photos/seed/agora-swim/900/600",
+    "tag": "Recovery",
+    "address": "Kyambogo Road Thrust, Ntinda",
+    "hours": "Mon–Sat: 6am–9pm · Sun: 7am–6pm",
+    "phone": "+256 700 205 618",
+    "price": "$$",
+    "website": "#classes",
+    "map": {
+      "x": 63,
+      "y": 57
+    }
+  },
+  {
+    "slug": "makindye-basketball-courts",
+    "name": "Makindye Basketball Courts",
+    "category": "Sports & Fitness",
+    "tags": [
+      "Basketball",
+      "Pick-up",
+      "Streetball"
+    ],
+    "rating": 4.5,
+    "reviews": 152,
+    "description": "Floodlit outdoor courts where nightly pick-up runs are half the city’s social calendar. Bring a ball or build a team.",
+    "image": "https://picsum.photos/seed/agora-basketball/900/600",
+    "tag": "Pick-up",
+    "address": "Makindye Barracks Road",
+    "hours": "Daily: 4pm–11pm",
+    "phone": "+256 780 491 607",
+    "price": "$",
+    "website": "#details",
+    "map": {
+      "x": 34,
+      "y": 68
+    }
+  },
+  {
+    "slug": "nile-trail-cycling",
+    "name": "Nile Trail Cycling",
+    "category": "Sports & Fitness",
+    "tags": [
+      "Cycling",
+      "MTB",
+      "River trails"
+    ],
+    "rating": 4.7,
+    "reviews": 104,
+    "description": "Mountain bikes and guided rides along the Nile from Jinja to the Bujagali falls. Helmet, water, and a proper lunch included.",
+    "image": "https://picsum.photos/seed/agora-cycling/900/600",
+    "tag": "Trail Day",
+    "address": "Jinja Bypass, Nile Milestones",
+    "hours": "Daily: 8am–5pm",
+    "phone": "+256 700 329 866",
+    "price": "$$",
+    "website": "#book",
+    "map": {
+      "x": 86,
+      "y": 45
+    }
+  },
+  {
+    "slug": "nakasero-boxing-gym",
+    "name": "Nakasero Boxing Gym",
+    "category": "Sports & Fitness",
+    "tags": [
+      "Boxing",
+      "Fitness",
+      "Sparring"
+    ],
+    "rating": 4.5,
+    "reviews": 117,
+    "description": "Heavy bags, hand wraps, and coaches who started where you’re standing. Pad work for fitness or a full amateur pathway.",
+    "image": "https://picsum.photos/seed/agora-boxing/900/600",
+    "tag": "Grit",
+    "address": "Plot 6, Nakasero Rise",
+    "hours": "Mon–Sat: 6am–9pm",
+    "phone": "+256 772 615 940",
+    "price": "$$",
+    "website": "#classes",
+    "map": {
+      "x": 51,
+      "y": 30
+    }
+  },
+  {
+    "slug": "trail-tuesday-hikers",
+    "name": "Trail Tuesday Hikers",
+    "category": "Sports & Fitness",
+    "tags": [
+      "Hiking",
+      "Mabira",
+      "Weekend getaways"
+    ],
+    "rating": 4.6,
+    "reviews": 88,
+    "description": "Weekly hikes out of the city — Mabira forest loops, Namugongo plains, and the odd waterfall. Transport and lunch sorted.",
+    "image": "https://picsum.photos/seed/agora-hikers/900/600",
+    "tag": "Outdoors",
+    "address": "Meeting at Ntinda Roundabout",
+    "hours": "Tuesdays & Saturdays: 6am",
+    "phone": "+256 701 274 503",
+    "price": "$",
+    "website": "#schedule",
+    "map": {
+      "x": 64,
+      "y": 53
+    }
+  },
+  {
+    "slug": "sunrise-zumba-collective",
+    "name": "Sunrise Zumba Collective",
+    "category": "Sports & Fitness",
+    "tags": [
+      "Zumba",
+      "Dance fitness",
+      "Open air"
+    ],
+    "rating": 4.4,
+    "reviews": 176,
+    "description": "Cardio that feels like a party — open-air Zumba at Kisementi’s green before the city wakes. First class free, sweat guaranteed.",
+    "image": "https://picsum.photos/seed/agora-zumba/900/600",
+    "tag": "Fun",
+    "address": "Kisementi Green, Kololo",
+    "hours": "Mon/Wed/Fri: 6am",
+    "phone": "+256 772 398 271",
+    "price": "$",
+    "website": "#schedule",
+    "map": {
+      "x": 43,
+      "y": 39
+    }
+  },
+  {
+    "slug": "the-rook-and-pawn-chess-club",
+    "name": "The Rook & Pawn Chess Club",
+    "category": "Arts & Culture",
+    "tags": [
+      "Chess",
+      "Strategy",
+      "Tournaments"
+    ],
+    "rating": 4.7,
+    "reviews": 132,
+    "description": "Sixty boards, a blitz evening every Thursday, and a house champion defending the corner table. Beginners learn in the Sunday school sessions.",
+    "image": "https://picsum.photos/seed/agora-chess-club/900/600",
+    "tag": "Thinkers Only",
+    "address": "Plot 17, Bukoto Street, Naguru",
+    "hours": "Tue–Sun: 2pm–10pm",
+    "phone": "+256 773 156 902",
+    "price": "$",
+    "website": "#tournaments",
+    "map": {
+      "x": 58,
+      "y": 49
+    }
+  },
+  {
+    "slug": "village-culture-centre",
+    "name": "The Village Culture Centre",
+    "category": "Arts & Culture",
+    "tags": [
+      "Dance",
+      "Drumming",
+      "Storytelling"
+    ],
+    "rating": 4.8,
+    "reviews": 144,
+    "description": "Nightly shows of music, dance, and storytelling from across Uganda’s regions. Come for the sundowner, stay for the ensemble finale.",
+    "image": "https://picsum.photos/seed/agora-village/900/600",
+    "tag": "A Must",
+    "address": "Nkumba Hill, Entebbe Road",
+    "hours": "Daily: 5pm–10pm",
+    "phone": "+256 700 415 780",
+    "price": "$$",
+    "website": "#tickets",
+    "map": {
+      "x": 11,
+      "y": 90
+    }
+  },
+  {
+    "slug": "the-ugandan-gallery",
+    "name": "The Ugandan Gallery",
+    "category": "Arts & Culture",
+    "tags": [
+      "Painting",
+      "Batik",
+      "Modern African art"
+    ],
+    "rating": 4.6,
+    "reviews": 119,
+    "description": "Contemporary Ugandan painters and batik artists under one roof, rotating shows every month and a studio bench by appointment.",
+    "image": "https://picsum.photos/seed/agora-gallery/900/600",
+    "tag": "Art for All",
+    "address": "Plot 4, Kololo Crescent",
+    "hours": "Tue–Sat: 10am–7pm",
+    "phone": "+256 702 833 147",
+    "price": "$",
+    "website": "#exhibitions",
+    "map": {
+      "x": 49,
+      "y": 32
+    }
+  },
+  {
+    "slug": "kigenyi-potters-studio",
+    "name": "Kigenyi Potters Studio",
+    "category": "Arts & Culture",
+    "tags": [
+      "Pottery",
+      "Workshops",
+      "Clay"
+    ],
+    "rating": 4.7,
+    "reviews": 96,
+    "description": "A family workshop where you throw, trim, and glaze your own mug in a single afternoon. Firing takes a week and worth the wait.",
+    "image": "https://picsum.photos/seed/agora-potters/900/600",
+    "tag": "Hands On",
+    "address": "Plot 29, Ntinda Drive",
+    "hours": "Wed–Sun: 10am–6pm",
+    "phone": "+256 700 268 559",
+    "price": "$$",
+    "website": "#workshops",
+    "map": {
+      "x": 62,
+      "y": 55
+    }
+  },
+  {
+    "slug": "bukoto-drum-yard",
+    "name": "Bukoto Drum Yard",
+    "category": "Arts & Culture",
+    "tags": [
+      "Percussion",
+      "Lessons",
+      "Jam"
+    ],
+    "rating": 4.5,
+    "reviews": 103,
+    "description": "Drums of every size, open jam nights every Friday, and lessons that start from a single heartbeat rhythm. Bring callouses.",
+    "image": "https://picsum.photos/seed/agora-drum/900/600",
+    "tag": "Rhythm",
+    "address": "Bukoto Kasubi Road",
+    "hours": "Mon–Sat: 11am–9pm",
+    "phone": "+256 781 204 633",
+    "price": "$",
+    "website": "#classes",
+    "map": {
+      "x": 53,
+      "y": 45
+    }
+  },
+  {
+    "slug": "kisementi-street-theatre",
+    "name": "Kisementi Street Theatre",
+    "category": "Arts & Culture",
+    "tags": [
+      "Theatre",
+      "Improv",
+      "Plays"
+    ],
+    "rating": 4.5,
+    "reviews": 87,
+    "description": "An intimate black-box that hosts original Ugandan plays, improv nights, and the Thursday open-stories event you’ll recount for weeks.",
+    "image": "https://picsum.photos/seed/agora-theatre/900/600",
+    "tag": "Storytelling",
+    "address": "Kisementi Arcade, Floor 2",
+    "hours": "Thu–Sun: 6pm–11pm",
+    "phone": "+256 700 589 231",
+    "price": "$$",
+    "website": "#tickets",
+    "map": {
+      "x": 46,
+      "y": 41
+    }
+  },
+  {
+    "slug": "old-town-poetry-house",
+    "name": "Old Town Poetry House",
+    "category": "Arts & Culture",
+    "tags": [
+      "Poetry",
+      "Spoken word",
+      "Open mic"
+    ],
+    "rating": 4.6,
+    "reviews": 112,
+    "description": "Slams, acoustic sets, and open-mic nights in a candle-lit courtyard by the old mosque. The first Sunday standing-room-only pass is a badge.",
+    "image": "https://picsum.photos/seed/agora-poetry/900/600",
+    "tag": "Words",
+    "address": "Old Kampala Hill, below the cathedral",
+    "hours": "Wed & Sun: 7pm–11pm",
+    "phone": "+256 771 325 684",
+    "price": "$",
+    "website": "#events",
+    "map": {
+      "x": 41,
+      "y": 22
+    }
+  },
+  {
+    "slug": "kateera-photo-studio",
+    "name": "Kateera Photo Studio",
+    "category": "Arts & Culture",
+    "tags": [
+      "Portraits",
+      "Film",
+      "Studio"
+    ],
+    "rating": 4.5,
+    "reviews": 94,
+    "description": "A working portrait studio with fabric backdrops and natural light, shooting film and digital. Book the 35mm portrait — trust us.",
+    "image": "https://picsum.photos/seed/agora-photo/900/600",
+    "tag": "Portraits",
+    "address": "Kamwokya Lane, near the roundabout",
+    "hours": "Tue–Sat: 9am–6pm",
+    "phone": "+256 700 746 903",
+    "price": "$$",
+    "website": "#book",
+    "map": {
+      "x": 55,
+      "y": 26
+    }
+  },
+  {
+    "slug": "wandegeya-craft-co-op",
+    "name": "Wandegeya Craft Co-op",
+    "category": "Arts & Culture",
+    "tags": [
+      "Crafts",
+      "Baskets",
+      "Co-op"
+    ],
+    "rating": 4.6,
+    "reviews": 108,
+    "description": "Basket-weavers and beadmakers selling directly from the co-op — fair-price crafts with your money going straight to the hands that made them.",
+    "image": "https://picsum.photos/seed/agora-craft/900/600",
+    "tag": "Fair Trade",
+    "address": "Wandegeya Market, stall 21",
+    "hours": "Mon–Sat: 8am–6pm",
+    "phone": "+256 772 460 118",
+    "price": "$",
+    "website": "#shop",
+    "map": {
+      "x": 45,
+      "y": 25
+    }
+  },
+  {
+    "slug": "nakasero-fabric-atelier",
+    "name": "Nakasero Fabric Atelier",
+    "category": "Arts & Culture",
+    "tags": [
+      "Textiles",
+      "Kikoyi",
+      "Tailoring"
+    ],
+    "rating": 4.4,
+    "reviews": 86,
+    "description": "Bolt after bolt of kangas, kikoyi, and hand-dyed print — plus a tailoring upffront that turns two metres into tomorrow’s outfit.",
+    "image": "https://picsum.photos/seed/agora-fabric/900/600",
+    "tag": "Colour",
+    "address": "Nakasero Market, fabric floor",
+    "hours": "Mon–Sat: 8am–6pm",
+    "phone": "+256 700 618 452",
+    "price": "$",
+    "website": "#shop",
+    "map": {
+      "x": 52,
+      "y": 31
+    }
+  },
+  {
+    "slug": "the-film-yard",
+    "name": "The Film Yard",
+    "category": "Arts & Culture",
+    "tags": [
+      "Cinema",
+      "Indie",
+      "Screenings"
+    ],
+    "rating": 4.5,
+    "reviews": 122,
+    "description": "An indie screen for Ugandan short films, world cinema, and the occasional marathon. Popcorn is good, the talkbacks are better.",
+    "image": "https://picsum.photos/seed/agora-film/900/600",
+    "tag": "Screen",
+    "address": "Bweyogerere Estate, Block B",
+    "hours": "Thu–Sun: 5pm–11pm",
+    "phone": "+256 781 094 627",
+    "price": "$",
+    "website": "#screenings",
+    "map": {
+      "x": 71,
+      "y": 40
+    }
+  },
+  {
+    "slug": "nest-arts-residency",
+    "name": "The Nest Arts Residency",
+    "category": "Arts & Culture",
+    "tags": [
+      "Residency",
+      "Exhibitions",
+      "Studios"
+    ],
+    "rating": 4.7,
+    "reviews": 75,
+    "description": "An artist residency above Muyenga with open-studio days and group exhibitions that introduce the next wave of Ugandan contemporary art.",
+    "image": "https://picsum.photos/seed/agora-nest/900/600",
+    "tag": "Emerging",
+    "address": "Muyenga Tank Hill Top",
+    "hours": "Open studios: Sat 10am–4pm",
+    "phone": "+256 700 371 848",
+    "price": "$",
+    "website": "#exhibitions",
+    "map": {
+      "x": 67,
+      "y": 63
+    }
+  },
+  {
+    "slug": "ggaba-lakeside-market",
+    "name": "Ggaba Lakeside Market",
+    "category": "Community & Events",
+    "tags": [
+      "Market",
+      "Fresh produce",
+      "Weekly"
+    ],
+    "rating": 4.7,
+    "reviews": 165,
+    "description": "A weekend market by the Ggaba shore — farm-gate vegetables, roasted corn, crafts, and live karaoke for very brave families.",
+    "image": "https://picsum.photos/seed/agora-ggaba-market/900/600",
+    "tag": "Saturday Staple",
+    "address": "Ggaba Landing Site",
+    "hours": "Sat: 8am–5pm · Sun: 9am–3pm",
+    "phone": "+256 772 588 314",
+    "price": "$",
+    "website": "#details",
+    "map": {
+      "x": 20,
+      "y": 76
+    }
+  },
+  {
+    "slug": "the-idea-hub-nakawa",
+    "name": "The Idea Hub Nakawa",
+    "category": "Community & Events",
+    "tags": [
+      "Co-working",
+      "Workshops",
+      "Community"
+    ],
+    "rating": 4.5,
+    "reviews": 101,
+    "description": "Desks, Wi-Fi that mostly works, and the best workshop calendar in town — pitch nights, portfolio reviews, and founder coffee mornings.",
+    "image": "https://picsum.photos/seed/agora-idea/900/600",
+    "tag": "Build",
+    "address": "Nakawa Business Park, Block C",
+    "hours": "Mon–Sat: 8am–8pm",
+    "phone": "+256 700 254 919",
+    "price": "$$",
+    "website": "#book",
+    "map": {
+      "x": 57,
+      "y": 42
+    }
+  },
+  {
+    "slug": "boda-boda-safety-club",
+    "name": "Boda Boda Safety Club",
+    "category": "Community & Events",
+    "tags": [
+      "Workshops",
+      "Safety",
+      "Rideshare"
+    ],
+    "rating": 4.6,
+    "reviews": 149,
+    "description": "Helmet fittings, defensive-riding drills, and first-aid sessions run by and for the boda community. Free reflex-reflective vests on joining.",
+    "image": "https://picsum.photos/seed/agora-boda/900/600",
+    "tag": "Community",
+    "address": "Nakasero Fuel Station Yard",
+    "hours": "Sat: 9am–1pm",
+    "phone": "+256 700 712 265",
+    "price": "$",
+    "website": "#events",
+    "map": {
+      "x": 50,
+      "y": 29
+    }
+  },
+  {
+    "slug": "lubaga-community-garden",
+    "name": "Lubaga Community Garden",
+    "category": "Community & Events",
+    "tags": [
+      "Gardening",
+      "Agriculture",
+      "Volunteers"
+    ],
+    "rating": 4.5,
+    "reviews": 98,
+    "description": "A shared quarter-acre where neighbours grow greens, learn urban farming, and trade harvests. Volunteer Saturdays with free seedlings.",
+    "image": "https://picsum.photos/seed/agora-garden/900/600",
+    "tag": "Grow",
+    "address": "Lubaga Hill, near the cathedral",
+    "hours": "Sat: 8am–12pm",
+    "phone": "+256 701 930 486",
+    "price": "$",
+    "website": "#details",
+    "map": {
+      "x": 40,
+      "y": 58
+    }
+  },
+  {
+    "slug": "women-in-tech-hub",
+    "name": "Women in Tech Hub",
+    "category": "Community & Events",
+    "tags": [
+      "Tech",
+      "Mentorship",
+      "Meetups"
+    ],
+    "rating": 4.7,
+    "reviews": 113,
+    "description": "Code-along evenings, mentorship pairings, and monthly demo nights celebrating women building in Kampala’s tech scene.",
+    "image": "https://picsum.photos/seed/agora-wit/900/600",
+    "tag": "Mentorship",
+    "address": "Makindye Hill House, Suite 4",
+    "hours": "Tue/Thu: 6pm–9pm",
+    "phone": "+256 772 041 837",
+    "price": "$",
+    "website": "#meetups",
+    "map": {
+      "x": 36,
+      "y": 64
+    }
+  },
+  {
+    "slug": "the-makers-garage",
+    "name": "The Maker’s Garage",
+    "category": "Community & Events",
+    "tags": [
+      "Tools",
+      "Prototyping",
+      "DIY"
+    ],
+    "rating": 4.6,
+    "reviews": 107,
+    "description": "3D printers, laser cutter, drill presses, and patient engineers who help you build the thing you keep describing. Membership unlocks the floor.",
+    "image": "https://picsum.photos/seed/agora-makers/900/600",
+    "tag": "Prototype",
+    "address": "Plot 24, Ntinda Industrial Zone",
+    "hours": "Mon–Sat: 9am–9pm",
+    "phone": "+256 700 867 391",
+    "price": "$$",
+    "website": "#membership",
+    "map": {
+      "x": 61,
+      "y": 54
+    }
+  },
+  {
+    "slug": "the-book-hut",
+    "name": "The Book Hut & Book Club",
+    "category": "Community & Events",
+    "tags": [
+      "Books",
+      "Book club",
+      "Reading"
+    ],
+    "rating": 4.6,
+    "reviews": 121,
+    "description": "New and second-hand Ugandan and African literature, a Sunday book club, and armchairs that you will not escape quickly.",
+    "image": "https://picsum.photos/seed/agora-bookhut/900/600",
+    "tag": "Read",
+    "address": "Plot 11, Bugolobi Crescent",
+    "hours": "Tue–Sun: 9am–8pm",
+    "phone": "+256 700 483 219",
+    "price": "$",
+    "website": "#bookclub",
+    "map": {
+      "x": 56,
+      "y": 49
+    }
+  },
+  {
+    "slug": "nile-cleanup-crew",
+    "name": "Nile Cleanup Crew",
+    "category": "Community & Events",
+    "tags": [
+      "Cleanups",
+      "Environment",
+      "Weekly"
+    ],
+    "rating": 4.8,
+    "reviews": 157,
+    "description": "Early-morning riverbank cleanups in Jinja with gloves, bags, and breakfast after. The stretch below the dam is spotless because of them.",
+    "image": "https://picsum.photos/seed/agora-cleanup/900/600",
+    "tag": "Give Back",
+    "address": "Jinja Waterfront, below the bridge",
+    "hours": "Sat: 7am–10am",
+    "phone": "+256 780 116 548",
+    "price": "$",
+    "website": "#join",
+    "map": {
+      "x": 85,
+      "y": 46
+    }
+  },
+  {
+    "slug": "kira-learning-centre",
+    "name": "Kira Learning Centre",
+    "category": "Community & Events",
+    "tags": [
+      "Tutoring",
+      "Kids",
+      "Community"
+    ],
+    "rating": 4.6,
+    "reviews": 129,
+    "description": "Free evening homework club and reading groups for the Kira-Town neighbourhood, powered by volunteer teachers and stubborn optimism.",
+    "image": "https://picsum.photos/seed/agora-kira/900/600",
+    "tag": "For the Kids",
+    "address": "Kira Town Council Hall",
+    "hours": "Mon–Fri: 4pm–7pm",
+    "phone": "+256 772 935 074",
+    "price": "$",
+    "website": "#volunteer",
+    "map": {
+      "x": 69,
+      "y": 35
+    }
+  },
+  {
+    "slug": "open-streets-kampala",
+    "name": "Open Streets Kampala",
+    "category": "Community & Events",
+    "tags": [
+      "Car-free day",
+      "Fitness",
+      "Family"
+    ],
+    "rating": 4.7,
+    "reviews": 138,
+    "description": "One Sunday a month the city closes a strip of Kololo to cars — running, skating, aerobics, and breakfast carts till the street reopens.",
+    "image": "https://picsum.photos/seed/agora-openstreets/900/600",
+    "tag": "Sunday Fun",
+    "address": "Kololo Independence Avenue strip",
+    "hours": "1st Sunday: 6am–11am",
+    "phone": "+256 700 274 601",
+    "price": "$",
+    "website": "#details",
+    "map": {
+      "x": 47,
+      "y": 33
+    }
+  },
+  {
+    "slug": "lakefront-safari-lodge",
+    "name": "Lakefront Safari Lodge",
+    "category": "Stays & Places",
+    "tags": [
+      "Lodge",
+      "Lake view",
+      "Nature"
+    ],
+    "rating": 4.8,
+    "reviews": 186,
+    "description": "Thatched cottages on the Entebbe lakefront with birdsong mornings and monkey-proof verandas. The sundowner deck is the easy winner.",
+    "image": "https://picsum.photos/seed/agora-lakefront/900/600",
+    "tag": "Escape",
+    "address": "Entebbe Botanical Gardens road",
+    "hours": "Check-in 2pm · Check-out 11am",
+    "phone": "+256 772 094 158",
+    "price": "$$$",
+    "website": "#book",
+    "map": {
+      "x": 13,
+      "y": 87
+    }
+  },
+  {
+    "slug": "nile-view-boutique-hotel",
+    "name": "Nile View Boutique Hotel",
+    "category": "Stays & Places",
+    "tags": [
+      "Hotel",
+      "Riverside",
+      "Balconies"
+    ],
+    "rating": 4.7,
+    "reviews": 142,
+    "description": "Balconies over the White Nile, breakfast watching the rafts go by, and the quietest rooms in Jinja after the rapids call it a day.",
+    "image": "https://picsum.photos/seed/agora-nileview/900/600",
+    "tag": "Boutique",
+    "address": "Nile Lane, Jinja Central",
+    "hours": "Check-in 2pm · Check-out 12pm",
+    "phone": "+256 700 528 437",
+    "price": "$$$",
+    "website": "#book",
+    "map": {
+      "x": 85,
+      "y": 44
+    }
+  },
+  {
+    "slug": "kololo-terrace-suites",
+    "name": "Kololo Terrace Suites",
+    "category": "Stays & Places",
+    "tags": [
+      "Hotel",
+      "Rooftop",
+      "Business"
+    ],
+    "rating": 4.6,
+    "reviews": 153,
+    "description": "Serviced suites in the middle of Kololo with a rooftop pool, meeting rooms, and a breakfast that makes business travel edible.",
+    "image": "https://picsum.photos/seed/agora-terrace/900/600",
+    "tag": "Business",
+    "address": "Plot 6, Kololo Hill Drive",
+    "hours": "Check-in 2pm · Check-out 11am",
+    "phone": "+256 772 640 283",
+    "price": "$$$",
+    "website": "#book",
+    "map": {
+      "x": 48,
+      "y": 32
+    }
+  },
+  {
+    "slug": "the-grand-hotel",
+    "name": "The Grand Hotel",
+    "category": "Stays & Places",
+    "tags": [
+      "Hotel",
+      "Landmark",
+      "City centre"
+    ],
+    "rating": 4.5,
+    "reviews": 167,
+    "description": "The grand old lady of the city centre — sweeping staircases, ceiling fans, and breakfast under the courtyard trees since the sixties.",
+    "image": "https://picsum.photos/seed/agora-grand/900/600",
+    "tag": "Classic",
+    "address": "Parliament Avenue, Kampala",
+    "hours": "Check-in 2pm · Check-out 11am",
+    "phone": "+256 700 198 745",
+    "price": "$$$",
+    "website": "#book",
+    "map": {
+      "x": 44,
+      "y": 27
+    }
+  },
+  {
+    "slug": "akira-boutique-guesthouse",
+    "name": "Akira Boutique Guesthouse",
+    "category": "Stays & Places",
+    "tags": [
+      "Guesthouse",
+      "Garden",
+      "Quiet"
+    ],
+    "rating": 4.6,
+    "reviews": 87,
+    "description": "A six-room garden guesthouse overlooking the Muyenga lake basin — homemade breakfast, hummingbird mornings, and total quiet after dark.",
+    "image": "https://picsum.photos/seed/agora-akira/900/600",
+    "tag": "Home Away",
+    "address": "Muyenga Kisugu Road",
+    "hours": "Check-in 1pm · Check-out 10am",
+    "phone": "+256 772 355 726",
+    "price": "$$",
+    "website": "#book",
+    "map": {
+      "x": 66,
+      "y": 64
+    }
+  },
+  {
+    "slug": "encore-resort-munyonyo",
+    "name": "Encore Resort Munyonyo",
+    "category": "Stays & Places",
+    "tags": [
+      "Resort",
+      "Pools",
+      "Events"
+    ],
+    "rating": 4.7,
+    "reviews": 178,
+    "description": "Pools, lake decks, lawn games, and a wedding gazebo with a water view. Stay for the weekend, leave recharged and slightly sunburned.",
+    "image": "https://picsum.photos/seed/agora-encore/900/600",
+    "tag": "All In",
+    "address": "Munyonyo Kampala Road",
+    "hours": "Check-in 2pm · Check-out 11am",
+    "phone": "+256 700 803 692",
+    "price": "$$$",
+    "website": "#book",
+    "map": {
+      "x": 17,
+      "y": 80
+    }
+  },
+  {
+    "slug": "airport-transit-lodge",
+    "name": "Airport Transit Lodge",
+    "category": "Stays & Places",
+    "tags": [
+      "Lodge",
+      "Airport",
+      "Convenient"
+    ],
+    "rating": 4.4,
+    "reviews": 115,
+    "description": "Ten minutes from Entebbe International with a free shuttle, sound-proofed rooms, and early-call breakfast for red-eye departures.",
+    "image": "https://picsum.photos/seed/agora-transit/900/600",
+    "tag": "Practical",
+    "address": "Entebbe Airport Road, Nakiwogo",
+    "hours": "Open 24 hours",
+    "phone": "+256 700 426 890",
+    "price": "$$",
+    "website": "#book",
+    "map": {
+      "x": 10,
+      "y": 92
+    }
+  },
+  {
+    "slug": "botanical-views-cottages",
+    "name": "Botanical Views Cottages",
+    "category": "Stays & Places",
+    "tags": [
+      "Cottages",
+      "Gardens",
+      "Eco"
+    ],
+    "rating": 4.5,
+    "reviews": 93,
+    "description": "Solar-powered cottages tucked against the botanical gardens, with guided trail mornings and the rarest thing in Entebbe: silence.",
+    "image": "https://picsum.photos/seed/agora-botanical/900/600",
+    "tag": "Eco",
+    "address": "Botanical Gardens edge, Entebbe",
+    "hours": "Check-in 2pm · Check-out 11am",
+    "phone": "+256 772 619 443",
+    "price": "$$",
+    "website": "#book",
+    "map": {
+      "x": 15,
+      "y": 89
+    }
+  },
+  {
+    "slug": "better-life-pharmacy",
+    "name": "Better Life Pharmacy",
+    "category": "Essential Services",
+    "tags": [
+      "Pharmacy",
+      "Medicine",
+      "Late night"
+    ],
+    "rating": 4.6,
+    "reviews": 131,
+    "description": "A 24-hour Ntinda pharmacy with genuine medicines, fair prices, and a pharmacist who actually talks you through the dose.",
+    "image": "https://picsum.photos/seed/agora-pharmacy/900/600",
+    "tag": "Open 24h",
+    "address": "Plot 30, Kira Road, Ntinda",
+    "hours": "Open 24 hours",
+    "phone": "+256 700 837 205",
+    "price": "$$",
+    "website": "#details",
+    "map": {
+      "x": 62,
+      "y": 56
+    }
+  },
+  {
+    "slug": "afya-clinic-bugolobi",
+    "name": "Afya Clinic Bugolobi",
+    "category": "Essential Services",
+    "tags": [
+      "Clinic",
+      "Doctor",
+      "Family care"
+    ],
+    "rating": 4.7,
+    "reviews": 148,
+    "description": "A neighbourhood clinic for consultations, vaccinations, and lab work — walk-ins welcome and the staff treat you like a regular.",
+    "image": "https://picsum.photos/seed/agora-clinic/900/600",
+    "tag": "Trusted",
+    "address": "Plot 9, Bugolobi Valley Road",
+    "hours": "Mon–Sat: 8am–8pm",
+    "phone": "+256 700 914 662",
+    "price": "$$",
+    "website": "#details",
+    "map": {
+      "x": 58,
+      "y": 50
+    }
+  },
+  {
+    "slug": "mobile-money-and-forex",
+    "name": "Mobile Money & Forex Hub",
+    "category": "Essential Services",
+    "tags": [
+      "Mobile money",
+      "Forex",
+      "E-wallets"
+    ],
+    "rating": 4.4,
+    "reviews": 96,
+    "description": "Fast, friendly cash-in/out, transfers, and currency exchange on Nakasero Hill — the corner desk that keeps half the city moving.",
+    "image": "https://picsum.photos/seed/agora-momo/900/600",
+    "tag": "Everyday",
+    "address": "Nakasero Hill Lane, stall 3",
+    "hours": "Mon–Sat: 7am–8pm",
+    "phone": "+256 772 350 191",
+    "price": "$",
+    "website": "#details",
+    "map": {
+      "x": 51,
+      "y": 31
+    }
+  },
+  {
+    "slug": "city-clean-laundry",
+    "name": "City Clean Laundry",
+    "category": "Essential Services",
+    "tags": [
+      "Laundry",
+      "Dry clean",
+      "Pickup"
+    ],
+    "rating": 4.5,
+    "reviews": 122,
+    "description": "Pickup-and-delivery laundry in 24 hours, starching done properly, and an app that tells you when your shirts are on the road home.",
+    "image": "https://picsum.photos/seed/agora-laundry/900/600",
+    "tag": "Handy",
+    "address": "Plot 15, Kololo Hill Drive",
+    "hours": "Mon–Sat: 8am–7pm",
+    "phone": "+256 700 683 274",
+    "price": "$$",
+    "website": "#details",
+    "map": {
+      "x": 49,
+      "y": 34
+    }
+  },
+  {
+    "slug": "kopiya-print-and-copy",
+    "name": "Kopiya Print & Copy",
+    "category": "Essential Services",
+    "tags": [
+      "Printing",
+      "Copies",
+      "Documents"
+    ],
+    "rating": 4.5,
+    "reviews": 133,
+    "description": "Binding, laminating, passport photos, and the fastest colour prints around — the student life raft at the Wandegeya corner.",
+    "image": "https://picsum.photos/seed/agora-kopiya/900/600",
+    "tag": "Student Hub",
+    "address": "Wandegeya Market Road, corner",
+    "hours": "Mon–Sat: 7am–8pm",
+    "phone": "+256 772 844 507",
+    "price": "$",
+    "website": "#details",
+    "map": {
+      "x": 46,
+      "y": 23
+    }
+  },
+  {
+    "slug": "spark-electric-co-op",
+    "name": "Spark Electric Co-op",
+    "category": "Essential Services",
+    "tags": [
+      "Electrics",
+      "Repairs",
+      "Co-op"
+    ],
+    "rating": 4.6,
+    "reviews": 109,
+    "description": "Licensed electricians co-founded as a co-op for night-sky work, solar installs, and repairs that come with a proper written quote.",
+    "image": "https://picsum.photos/seed/agora-spark/900/600",
+    "tag": "Skilled",
+    "address": "Plot 13, Ntinda Road",
+    "hours": "Mon–Sat: 8am–6pm",
+    "phone": "+256 700 297 416",
+    "price": "$$",
+    "website": "#details",
+    "map": {
+      "x": 62,
+      "y": 55
+    }
+  },
+  {
+    "slug": "kiwaatule-timber-hardware",
+    "name": "Kiwaatule Timber & Hardware",
+    "category": "Essential Services",
+    "tags": [
+      "Hardware",
+      "Timber",
+      "Building"
+    ],
+    "rating": 4.4,
+    "reviews": 88,
+    "description": "Meters of timber, boxes of screws, and advice from people who have built half of Kiwaatule. Cut to size while you wait.",
+    "image": "https://picsum.photos/seed/agora-hardware/900/600",
+    "tag": "Build It",
+    "address": "Kiwaatule Shell Road",
+    "hours": "Mon–Sat: 8am–7pm",
+    "phone": "+256 701 465 903",
+    "price": "$$",
+    "website": "#details",
+    "map": {
+      "x": 65,
+      "y": 50
+    }
+  },
+  {
+    "slug": "the-travel-desk",
+    "name": "The Travel Desk (Boda Logistics)",
+    "category": "Essential Services",
+    "tags": [
+      "Travel",
+      "Logistics",
+      "Rides"
+    ],
+    "rating": 4.5,
+    "reviews": 117,
+    "description": "Boda bookings, luggage runs, and town deliveries from a tiny desk that has never once lost a parcel in three years.",
+    "image": "https://picsum.photos/seed/agora-traveldesk/900/600",
+    "tag": "Reliable",
+    "address": "Nakasero Post Office Lane",
+    "hours": "Mon–Sat: 6am–9pm",
+    "phone": "+256 772 128 649",
+    "price": "$",
+    "website": "#book",
+    "map": {
+      "x": 50,
+      "y": 30
+    }
+  }
+]

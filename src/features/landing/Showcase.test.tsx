@@ -21,16 +21,16 @@ describe('Showcase section', () => {
 
   it('renders the first batch of place cards on load', () => {
     renderShowcase()
-    expect(screen.getByRole('button', card(/the green leaf café/i))).toBeInTheDocument()
-    expect(screen.getByRole('button', card(/casa manos/i))).toBeInTheDocument()
-    expect(screen.getByRole('button', card(/golden crust bakery/i))).toBeInTheDocument()
-    expect(screen.getByRole('button', card(/orbit juice bar/i))).toBeInTheDocument()
+    expect(screen.getByRole('button', card(/rolex & chapati corner/i))).toBeInTheDocument()
+    expect(screen.getByRole('button', card(/mama o's luwombo house/i))).toBeInTheDocument()
+    expect(screen.getByRole('button', card(/nile perch grill/i))).toBeInTheDocument()
+    expect(screen.getByRole('button', card(/acacia brunch bistro/i))).toBeInTheDocument()
   })
 
   it('does not render all places at once until Load more is used', () => {
     renderShowcase()
-    expect(screen.queryByRole('button', card(/riverside park/i))).not.toBeInTheDocument()
-    expect(screen.queryByRole('button', card(/nightowl jazz bar/i))).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', card(/the curry pot/i))).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', card(/kisementi gelato lab/i))).not.toBeInTheDocument()
     expect(screen.getByText(/showing 8 of \d+ places/i)).toBeInTheDocument()
   })
 
@@ -41,7 +41,7 @@ describe('Showcase section', () => {
     await user.click(screen.getByRole('button', { name: /load more places/i }))
 
     expect(screen.getByText(/showing 16 of \d+ places/i)).toBeInTheDocument()
-    expect(screen.getByRole('button', card(/dos malts brewery taproom/i))).toBeInTheDocument()
+    expect(screen.getByRole('button', card(/the curry pot/i))).toBeInTheDocument()
   })
 
   it('filters cards by selected category and resets the batch', async () => {
@@ -50,9 +50,9 @@ describe('Showcase section', () => {
 
     await user.click(screen.getByRole('tab', { name: /sports & fitness/i }))
 
-    expect(screen.getByRole('button', card(/riverside park/i))).toBeInTheDocument()
-    expect(screen.getByRole('button', card(/sunrise striders run collective/i))).toBeInTheDocument()
-    expect(screen.queryByRole('button', card(/the green leaf café/i))).not.toBeInTheDocument()
+    expect(screen.getByRole('button', card(/kampala road runners/i))).toBeInTheDocument()
+    expect(screen.getByRole('button', card(/lake victoria kayak club/i))).toBeInTheDocument()
+    expect(screen.queryByRole('button', card(/rolex & chapati corner/i))).not.toBeInTheDocument()
     expect(screen.queryByRole('button', card(/the grand hotel/i))).not.toBeInTheDocument()
   })
 
@@ -60,9 +60,9 @@ describe('Showcase section', () => {
     const user = userEvent.setup()
     renderShowcase()
 
-    await user.click(screen.getByRole('tab', { name: /arts & culture/i }))
+    await user.click(screen.getByRole('tab', { name: /essential services/i }))
 
-    expect(screen.getByRole('button', card(/the rook & pawn chess club/i))).toBeInTheDocument()
+    expect(screen.getByRole('button', card(/better life pharmacy/i))).toBeInTheDocument()
     expect(screen.queryByRole('button', { name: /load more places/i })).not.toBeInTheDocument()
   })
 
@@ -72,22 +72,22 @@ describe('Showcase section', () => {
 
     await user.type(screen.getByRole('searchbox'), 'chess')
     expect(screen.getByRole('button', card(/the rook & pawn chess club/i))).toBeInTheDocument()
-    expect(screen.queryByRole('button', card(/the green leaf café/i))).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', card(/rolex & chapati corner/i))).not.toBeInTheDocument()
 
     await user.clear(screen.getByRole('searchbox'))
     await user.type(screen.getByRole('searchbox'), 'silent disco')
-    expect(screen.getByRole('button', card(/the frequency silent disco/i))).toBeInTheDocument()
+    expect(screen.getByRole('button', card(/makindye rooftop silent disco/i))).toBeInTheDocument()
   })
 
   it('updates the result count while searching', async () => {
     const user = userEvent.setup()
     renderShowcase()
 
-    expect(screen.getByText(/48 places found/i)).toBeInTheDocument()
+    expect(screen.getByText(/80 places found/i)).toBeInTheDocument()
 
     await user.type(screen.getByRole('searchbox'), 'marathon')
     expect(screen.getByText(/1 place found/i)).toBeInTheDocument()
-    expect(screen.getByRole('button', card(/sunrise striders run collective/i))).toBeInTheDocument()
+    expect(screen.getByRole('button', card(/kampala road runners/i))).toBeInTheDocument()
   })
 
   it('shows an empty state when nothing matches and clears filters', async () => {
@@ -99,22 +99,22 @@ describe('Showcase section', () => {
     expect(screen.getByText(/no places match your current search and filters/i)).toBeInTheDocument()
 
     await user.click(screen.getByRole('button', { name: /clear all filters/i }))
-    expect(screen.getByRole('button', card(/the green leaf café/i))).toBeInTheDocument()
+    expect(screen.getByRole('button', card(/rolex & chapati corner/i))).toBeInTheDocument()
   })
 
   it('toggles favorites and filters to show only favorites', async () => {
     const user = userEvent.setup()
     renderShowcase()
 
-    await user.click(screen.getByRole('button', { name: /add casa manos to favorites/i }))
+    await user.click(screen.getByRole('button', { name: /add nile perch grill to favorites/i }))
     expect(
-      screen.getByRole('button', { name: /remove casa manos from favorites/i }),
+      screen.getByRole('button', { name: /remove nile perch grill from favorites/i }),
     ).toHaveAttribute('aria-pressed', 'true')
 
     await user.click(screen.getByRole('button', { name: /filter to favorites/i }))
 
-    expect(screen.getByRole('button', card(/casa manos/i))).toBeInTheDocument()
-    expect(screen.queryByRole('button', card(/the green leaf café/i))).not.toBeInTheDocument()
+    expect(screen.getByRole('button', card(/nile perch grill/i))).toBeInTheDocument()
+    expect(screen.queryByRole('button', card(/rolex & chapati corner/i))).not.toBeInTheDocument()
     expect(screen.getByText(/1 place found/i)).toBeInTheDocument()
   })
 
@@ -126,46 +126,46 @@ describe('Showcase section', () => {
       </MemoryRouter>,
     )
 
-    await user.click(screen.getByRole('button', { name: /add casa manos to favorites/i }))
+    await user.click(screen.getByRole('button', { name: /add nile perch grill to favorites/i }))
     first.unmount()
 
     renderShowcase()
 
     expect(
-      screen.getByRole('button', { name: /remove casa manos from favorites/i }),
+      screen.getByRole('button', { name: /remove nile perch grill from favorites/i }),
     ).toHaveAttribute('aria-pressed', 'true')
   })
 
   it('renders map pins for the visible places', () => {
     renderShowcase()
-    expect(screen.getByRole('button', { name: /show the green leaf café on map/i })).toBeInTheDocument()
-    expect(screen.queryByRole('button', { name: /show nightowl jazz bar on map/i })).not.toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /show rolex & chapati corner on map/i })).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: /show the grand hotel on map/i })).not.toBeInTheDocument()
   })
 
   it('opens the place dialog when a map pin is clicked', async () => {
     const user = userEvent.setup()
     renderShowcase()
 
-    await user.click(screen.getByRole('button', { name: /show the green leaf café on map/i }))
+    await user.click(screen.getByRole('button', { name: /show rolex & chapati corner on map/i }))
 
     const dialog = screen.getByRole('dialog')
     expect(dialog).toBeInTheDocument()
-    expect(within(dialog).getByRole('heading', { name: /the green leaf café/i })).toBeInTheDocument()
+    expect(within(dialog).getByRole('heading', { name: /rolex & chapati corner/i })).toBeInTheDocument()
   })
 
   it('opens a place detail dialog when a card is clicked', async () => {
     const user = userEvent.setup()
     renderShowcase()
 
-    await user.click(screen.getByRole('button', card(/the green leaf café/i)))
+    await user.click(screen.getByRole('button', card(/rolex & chapati corner/i)))
 
     const dialog = screen.getByRole('dialog')
     expect(dialog).toBeInTheDocument()
-    expect(within(dialog).getByRole('heading', { name: /the green leaf café/i })).toBeInTheDocument()
-    expect(within(dialog).getByText(/214 elm street/i)).toBeInTheDocument()
+    expect(within(dialog).getByRole('heading', { name: /rolex & chapati corner/i })).toBeInTheDocument()
+    expect(within(dialog).getByText(/plot 8, kisementi, kololo/i)).toBeInTheDocument()
     expect(within(dialog).getByRole('link', { name: /open full page/i })).toHaveAttribute(
       'href',
-      '/place/the-green-leaf-cafe',
+      '/place/bombo-road-rolex',
     )
   })
 
@@ -173,13 +173,13 @@ describe('Showcase section', () => {
     const user = userEvent.setup()
     renderShowcase()
 
-    await user.click(screen.getByRole('button', card(/casa manos/i)))
+    await user.click(screen.getByRole('button', card(/nile perch grill/i)))
     expect(screen.getByRole('dialog')).toBeInTheDocument()
 
     await user.keyboard('{Escape}')
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
 
-    await user.click(screen.getByRole('button', card(/casa manos/i)))
+    await user.click(screen.getByRole('button', card(/nile perch grill/i)))
     await user.click(screen.getByRole('button', { name: /close/i }))
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
   })

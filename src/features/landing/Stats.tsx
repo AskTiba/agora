@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 
 const STATS = [
-  { label: 'Core Categories', value: 4, suffix: '' },
-  { label: 'Local Places', value: 250, suffix: '+' },
-  { label: 'Weekly Events', value: 50, suffix: '+' },
+  { label: 'Core Categories', value: 7, suffix: '' },
+  { label: 'Local Places', value: 80, suffix: '+' },
+  { label: 'Weekly Events', value: 20, suffix: '+' },
   { label: 'Community Members', value: 10000, suffix: '+' },
 ]
 

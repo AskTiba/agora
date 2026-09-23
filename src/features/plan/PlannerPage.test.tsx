@@ -43,23 +43,23 @@ describe('PlannerPage', () => {
   })
 
   it('lists every saved spot in the still-deciding tray', () => {
-    seedFavorites(['casa-manos', 'the-green-leaf-cafe'])
+    seedFavorites(['nile-perch-grill', 'bombo-road-rolex'])
     renderPlanner()
 
-    expect(screen.getByText(/casa manos/i)).toBeInTheDocument()
-    expect(screen.getByText(/the green leaf café/i)).toBeInTheDocument()
+    expect(screen.getByText(/nile perch grill/i)).toBeInTheDocument()
+    expect(screen.getByText(/rolex & chapati corner/i)).toBeInTheDocument()
   })
 
   it('persists a today-assignment and moves the spot out of the deciding tray', async () => {
     const user = userEvent.setup()
-    seedFavorites(['casa-manos'])
+    seedFavorites(['nile-perch-grill'])
     renderPlanner()
 
-    const row = screen.getByText(/casa manos/i).closest('li') as HTMLElement
+    const row = screen.getByText(/nile perch grill/i).closest('li') as HTMLElement
     await user.click(within(row).getByRole('button', { name: /^today$/i }))
 
     expect(JSON.parse(window.localStorage.getItem(PLAN_KEY) ?? '{}')).toEqual({
-      'casa-manos': 'today',
+      'nile-perch-grill': 'today',
     })
     expect(
       screen.queryByRole('heading', { name: /still deciding/i }),
@@ -68,15 +68,15 @@ describe('PlannerPage', () => {
 
   it('renders planned spots under their day column and returns them on remove', async () => {
     const user = userEvent.setup()
-    seedFavorites(['casa-manos'])
-    seedPlan({ 'casa-manos': 'today' })
+    seedFavorites(['nile-perch-grill'])
+    seedPlan({ 'nile-perch-grill': 'today' })
     renderPlanner()
 
     const today = screen.getByRole('heading', { name: /^today$/i }).closest('section') as HTMLElement
-    expect(within(today).getByRole('link', { name: /casa manos/i })).toBeInTheDocument()
+    expect(within(today).getByRole('link', { name: /nile perch grill/i })).toBeInTheDocument()
 
     await user.click(
-      within(today).getByRole('button', { name: /remove casa manos from today plan/i }),
+      within(today).getByRole('button', { name: /remove nile perch grill from today plan/i }),
     )
     expect(JSON.parse(window.localStorage.getItem(PLAN_KEY) ?? '{}')).toEqual({})
   })

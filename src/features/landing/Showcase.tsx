@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import { CATEGORIES, PLACES, type Place } from '../../data/places'
+import { CATEGORIES, type Place } from '../../data/places'
 import { useFavorites } from '../../hooks/useFavorites'
+import { useCatalogue } from '../../hooks/useCatalogue'
 import { PlaceModal } from './PlaceModal'
 import { ExploreMap } from './ExploreMap'
 
@@ -112,6 +113,7 @@ function PlaceCard({
 }
 
 export function Showcase() {
+  const { places } = useCatalogue()
   const { favorites, toggleFavorite, isFavorite } = useFavorites()
   const [activeCategory, setActiveCategory] = useState('All')
   const [query, setQuery] = useState('')
@@ -121,7 +123,7 @@ export function Showcase() {
 
   const normalized = query.trim().toLowerCase()
 
-  const filtered = PLACES.filter((place) => {
+  const filtered = places.filter((place) => {
     if (activeCategory !== 'All' && place.category !== activeCategory) return false
     if (favoritesOnly && !isFavorite(place.slug)) return false
     if (normalized) {
@@ -172,7 +174,7 @@ export function Showcase() {
           </p>
 
           <p className="mx-auto mt-4 max-w-xl text-sm text-ink-muted">
-            {PLACES.length} spots across {CATEGORIES.length - 1} categories — and counting.
+            {places.length} spots across {CATEGORIES.length - 1} categories — and counting.
           </p>
         </div>
 
@@ -184,7 +186,7 @@ export function Showcase() {
               type="search"
               value={query}
               onChange={(event) => updateQuery(event.target.value)}
-              placeholder="Search by name, vibe, or activity — e.g. chess, ramen, marathon…"
+              placeholder="Search by name, vibe, or activity — e.g. chess, luwombo, marathon…"
               aria-label="Search places"
               className="w-full rounded-full border border-line bg-surface-elevated py-3.5 pl-12 pr-11 text-ink shadow-sm outline-none transition-all placeholder:text-ink-muted/70 focus:border-accent/50 focus:ring-2 focus:ring-accent/30"
             />

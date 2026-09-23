@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
-  EVENTS,
   EVENT_WINDOWS,
   eventsForWindow,
   formatDayLabel,
@@ -9,7 +8,8 @@ import {
   type EventItem,
   type EventsWindow,
 } from '../../data/events'
-import { getPlaceBySlug } from '../../data/places'
+import { useCatalogue } from '../../hooks/useCatalogue'
+import { getPlaceBySlug } from '../../data/catalogue'
 
 function EventCard({ event, today }: { event: EventItem; today: Date }) {
   const place = getPlaceBySlug(event.placeSlug)
@@ -88,8 +88,9 @@ function EventCard({ event, today }: { event: EventItem; today: Date }) {
 
 export function EventsFeed() {
   const today = new Date()
+  const { events } = useCatalogue()
   const [activeWindow, setActiveWindow] = useState<EventsWindow>('today')
-  const displayed = eventsForWindow(EVENTS, activeWindow, today)
+  const displayed = eventsForWindow(events, activeWindow, today)
 
   return (
     <section aria-labelledby="events-heading" id="events" className="relative py-24 sm:py-32">

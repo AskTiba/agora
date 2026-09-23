@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { getPlaceBySlug } from '../../data/places'
+import { getPlaceBySlug } from '../../data/catalogue'
 import { PLAN_DAY_LABELS, PLAN_DAYS, usePlan } from '../../hooks/usePlan'
 import { useFavorites } from '../../hooks/useFavorites'
 

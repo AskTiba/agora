@@ -77,6 +77,16 @@ pnpm preview
 Serves the `dist/` output locally so you can verify the production artifact behaves
 identically to the dev experience.
 
+### Tests
+
+```bash
+pnpm test        # CI-style run
+pnpm test:watch  # watch mode while developing
+```
+
+Runs Vitest with React Testing Library in jsdom. Setup lives in `vitest.config.ts` and
+`src/test/setup.ts`.
+
 ### Linting
 
 ```bash
@@ -90,12 +100,18 @@ Runs Oxlint using the rules configured in `.oxlintrc.json`.
 | Path | Purpose |
 | --- | --- |
 | `src/main.tsx` | Entry point — mounts the React root |
-| `src/App.tsx` | Root application component |
-| `src/index.css` | Global styles + Tailwind v4 `@theme` tokens |
-| `src/App.css` | App-level component styles |
+| `src/App.tsx` | Route table (`createBrowserRouter` — landing, `/place/:slug`, `/plan`) |
+| `src/app/` | App shell: Header + `<main>` + Footer layout route |
+| `src/components/` | Shared UI (Header, Footer, ThemeToggle) |
+| `src/features/` | Feature slices: `landing`, `live`, `place`, `plan` |
+| `src/data/` | Domain fixtures (places, events), `catalogue.ts` data seam, generated `/data` JSON |
+| `src/hooks/` | useFavorites, usePlan, useTheme, useScrollReveal, useCatalogue |
+| `scripts/sync-data.mjs` | Regenerates `public/data/*.json` from the TypeScript fixtures (auto-runs on `dev`/`build` via `predev`/`prebuild`, or `pnpm data:sync`) |
+| `src/index.css` | Global styles + Tailwind v4 `@theme` tokens + animations |
 | `public/` | Unprocessed static assets (served at `/`) |
 | `index.html` | SPA entry HTML |
 | `vite.config.ts` | Vite config (React + Tailwind plugins) |
+| `vitest.config.ts` | Vitest config (jsdom, setup files) |
 
 ## Troubleshooting
 

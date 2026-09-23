@@ -4,8 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "node scripts/sync-data.mjs",
     "dev": "vite",
+    "prebuild": "node scripts/sync-data.mjs",
     "build": "tsc -b && vite build",
+    "data:sync": "node scripts/sync-data.mjs",
     "lint": "oxlint",
     "test": "vitest run",
     "test:watch": "vitest",
